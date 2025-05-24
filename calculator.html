@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="calculator.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+  </head>
+  <body>
+    <div>
+      <p>TED CALC</p>
+    </div>
+   <div class="calculator">
+      <div>
+        <input type="text">
+
+      </div>
+      <div class="buttons-area">
+        <div class="button-rows">
+          <button onclick="clean();" class="row-one">clear</button>
+          <button onclick="deletion();" class="row-one">del</button>
+          <button class="row-one"></button>
+          <button onclick="clicking('/');" class="math-operator">&divide</button>
+        </div>
+        <div class="button-rows">
+          <button onclick="clicking('0');" class="row-two">0</button>
+          <button onclick="clicking('00');" class="row-two">00</button>
+          <button onclick="clicking('.');" class="row-two">.</button>
+          <button onclick="clicking('*');" class="math-operator">&times</button>
+        </div>
+        <div class="button-rows">
+          <button onclick="clicking('7');" class="whole-No">7</button>
+          <button onclick="clicking('8');" class="whole-No">8</button>
+          <button onclick="clicking('9');" class="whole-No">9</button>
+          <button onclick="clicking('-');" class="math-operator">-</button>
+        </div>
+        <div class="button-rows">
+          <button onclick="clicking('4');" class="whole-No">4</button>
+          <button onclick="clicking('5');" class="whole-No">5</button>
+          <button onclick="clicking('6');" class="whole-No">6</button>
+          <button onclick="clicking('+');" class="math-operator">+</button>
+        </div>
+        <div class="button-rows">
+          <button onclick="clicking('1');" class="whole-No">1</button>
+          <button onclick="clicking('2');" class="whole-No">2</button>
+          <button onclick="clicking('3');" class="whole-No">3</button>
+          <button onclick="calculation();" class="math-operator">=</button>
+        </div>
+
+        
+      </div>
+   </div>
+   <script src="calculator.js"></script>>
+  </body>
+</html>
